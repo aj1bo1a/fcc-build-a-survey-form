@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">How can the NBA improve their entertainment value?</h1>
+<p id="description">Thank you taking the time to help the NBA improve</p>
+
+<form id="survey-form">
+  <div class="input-element">
+   <label id="name-label"> 
+     Name
+     </label>
+    <input placeholder="name" id="name" type="text" required/>
+  </div>
+     <div class="input-element">
+   <label id="email-label"> 
+     Email
+     </label>
+    <input placeholder="email" id="email" type="email" required/>
+  </div>
+     <div class="input-element">
+   <label id="number-label"> 
+     Age
+     </label>
+    <input placeholder="age" id="number" min="8" max="80" type="number" required/>
+  </div>
+   <div class="input-element">
+   <label id="select-label"> 
+     Who's your favorite team?
+     </label>
+    <select id="dropdown">
+      <option>Bucks</option>
+      <option>Timberwolves</option>
+      <option>Lakers</option>
+    </select>
+  </div>
+  <div class="input-element">
+    <label>Have you been to a game before?</label>
+    <div>
+    <label><input type="radio" name="game"/ value="yes">Yes</label>
+    </div>
+    <div>
+    <label><input type="radio" name="game"/ value="no">No</label>
+    </div>
+  </div>
+  <div class="input-element">
+    <label>Which suggestions are good ideas for the NBA to implment?</label>
+    <div>
+    <label><input type="checkbox" ideas="game" value="playin"/>Play in game</label>
+    </div>
+    <div>
+    <label><input type="checkbox" ideas="game" value="food"/>Cheaper food</label>
+    </div>
+     <div>
+    <label><input type="checkbox" ideas="game" value="tickets"/>Cheaper tickets</label>
+    </div>
+    <div>
+    <label><input type="checkbox" ideas="game" value="calls"/>less ref calls</label>
+    </div>
+    <div>
+    <label><input type="checkbox" ideas="game" value="superteam"/>Super teams</label>
+    </div>
+  <div class="input-element">
+    <label>Additional comments</label>
+    <textarea type="text"></textarea>
+  </div>
+  <button type="submit" id="submit">
+    Submit
+  </button>
+</form>
